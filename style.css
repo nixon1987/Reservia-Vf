@@ -273,12 +273,12 @@ align-items: center;
 
 .true-star{
     color: #0065FC;
-    font-size: 0.70em;
+    font-size: 0.9em;
 }
 
 .false-star{
     color:#F2F2F2;
-    font-size: 0.70em;
+    font-size: 0.9em;
 }
 
 /* middle */
@@ -327,12 +327,19 @@ padding-left: 60px;
     
   .title-section1{
       font-weight: bold;
-      margin: 0 1rem;
+      margin: 0rem 1rem 0.5rem 0.5rem;
   } 
   
   .description-section1{
     margin: .40rem 1rem;
+  }
 
+  .stars-card1-section1{
+      margin: 0 0.5rem;
+  }
+
+  .card-section1 p{
+      margin: 0rem 1rem 0.5rem 0.5rem;
   }
 
   p{
