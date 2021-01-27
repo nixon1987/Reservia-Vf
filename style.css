@@ -356,6 +356,10 @@ padding-left: 60px;
     margin: 3.5rem 0 0 1.5rem;
   }
 
+  .card-section1 header{
+      margin: 0;
+  }
+
 
 
   @media screen and (max-width:1395px){
