@@ -317,6 +317,10 @@ padding-left: 60px;
     margin: 10px;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, .2)
     }
+
+    .card-section1 figure{
+        margin: 0;
+    }
   
   .image-section1{
     width: 100%;
@@ -762,11 +766,9 @@ footer{
     }
 
     footer{
-        width: 1440px;
+        width: auto;
         margin: 0;
         padding:30px;
-
-
     }
 }
 
