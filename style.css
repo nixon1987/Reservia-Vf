@@ -520,6 +520,10 @@ border-radius: 1rem 0 0 1rem;
         padding-left: 10px;
     }
   }
+
+  .cards-section2 header{
+    display: none;
+}
 /* section2 */
 
 /* section3 */
@@ -733,6 +737,10 @@ border-radius: 1rem 1rem 0 0;
         margin: 0 0 1rem 0;
     }
 
+}
+
+.cards-section3 header{
+    display: none;
 }
 
 /* footer */
