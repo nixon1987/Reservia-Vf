@@ -357,7 +357,7 @@ padding-left: 60px;
   }
 
   .card-section1 header{
-      margin: 0;
+      display: none;
   }
 
 
