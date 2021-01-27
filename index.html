@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8" />
         <meta name="author" content="Nixon">
@@ -7,6 +7,7 @@
         <meta name="keywords" content="HTML,CSS">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="logo/Reservia.svg">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/ebc15ea3ac.js" crossorigin="anonymous"></script>
         <title>
@@ -32,13 +33,17 @@
             <p> En plein centre ville ou en pleine nature</p>
          </div>
          <form>
-             <div>
-                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                <input type="search" id="recherche" name="recherche" placeholder="Marseille, France">
-                <button class="textsearch">Rechercher</button>
-                <button class="iconsearch"><i class="fas fa-search" aria-hidden="true"></i></button>
-             </div>
-         </form>
+            <div class="form">
+               <i class="fas fa-map-marker-alt iconsearch" aria-hidden="true"></i>
+               <input class="searchinput" type="search" id="recherche" name="recherche" placeholder="Marseille, France">
+               <button class="button-search1">
+                 <span>Rechercher</span>
+               </button>
+              <button class="button-search2">
+                <span><i class="fas fa-search" aria-hidden="true"></i></span>
+              </button>
+            </div>
+        </form>
         <div class="filter">
             <h3>Filtres</h3>
             <div class="icon-filter">
@@ -65,22 +70,22 @@
         <main> 
             <div class="middle">
                 <!-- section1 -->
-                <Section class="section1">
+                <section class="section1">
                  <h2>Hébergements à Marseille </h2>
                   <div class="cards-section1">
                     <!-- card1 -->
                     <article>
                         <a href="#">
                         <figure class="card-section1">
-                            <img class="image-section1" src="image/4_small/Auberge de la Cannebière.jpg" alt="Auberge la Cannebière">
-                            <figurcaption class="title-section1"> Auberge la Cannebière</figurcaption>
+                            <img class="image-section1" src="image/4_small/Auberge-de-la-Cannebière.jpg" alt="Auberge la Cannebière">
+                            <figcaption class="title-section1"> Auberge la Cannebière</figcaption>
                             <div class="description-section1">
                                 <P>Nuit à partir de <strong>25 €</strong></P>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true false-star" aria-hidden="true"></i>
                             </div>
                         </figure>
                         </a>
@@ -89,15 +94,15 @@
                     <article>
                         <a href="#">
                         <figure class="card-section1">
-                            <img class="image-section1" src="image/4_small/Hôtel du port.jpg" alt="Hôtel du port">
-                            <figurcaption class="title-section1"> Hôtel du port</figurcaption>
+                            <img class="image-section1" src="image/4_small/Hôtel-du-port.jpg" alt="Hôtel du port">
+                            <figcaption class="title-section1"> Hôtel du port</figcaption>
                             <div class="description-section1">
                                 <P>Nuit à partir de 52 <strong>€</strong></P>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
                             </div>
                         </figure>
                         </a>
@@ -106,15 +111,15 @@
                     <article>
                         <a href="#">
                         <figure class="card-section1">
-                            <img class="image-section1" src="image/4_small/Hôtel Les mouettes.jpg" alt="Hôtel Les mouettes">
-                            <figurcaption class="title-section1"> Hôtel Les mouettes</figurcaption>
+                            <img class="image-section1" src="image/4_small/Hôtel-Les-mouettes.jpg" alt="Hôtel Les mouettes">
+                            <figcaption class="title-section1"> Hôtel Les mouettes</figcaption>
                             <div class="description-section1">
                                 <P>Nuit à partir de 76 <strong>€</strong></P>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                <i class="fas fa-star star-true" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                <i class="fas fa-star star-true false-star" aria-hidden="true"></i>
                             </div>
                         </figure>
                         </a>
@@ -123,15 +128,15 @@
                     <article>
                         <a href="#">
                          <figure class="card-section1">
-                             <img class="image-section1" src="image/4_small/Hôtel de la mer.jpg" alt="Hôtel de la mer">
-                            <figurcaption class="title-section1"> Hôtel de la mer</figurcaption>
+                             <img class="image-section1" src="image/4_small/Hôtel-de-la-mer.jpg" alt="Hôtel de la mer">
+                            <figcaption class="title-section1"> Hôtel de la mer</figcaption>
                             <div class="description-section1">
                             <P>Nuit à partir de 46 <strong>€</strong></P>
-                            <i class="fas fa-star star-true" aria-hidden="true"></i>
-                            <i class="fas fa-star star-true" aria-hidden="true"></i>
-                            <i class="fas fa-star star-true" aria-hidden="true"></i>
-                            <i class="fas fa-star star-true" aria-hidden="true"></i>
-                            <i class="fas fa-star star-true" aria-hidden="true"></i>
+                            <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                            <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                            <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                            <i class="fas fa-star star-true false-star" aria-hidden="true"></i>
+                            <i class="fas fa-star star-true false-star" aria-hidden="true"></i>
                             </div>
                         </figure>
                         </a>
@@ -140,15 +145,15 @@
                     <article>
                         <a href="#">
                         <figure class="card-section1">
-                            <img class="image-section1" src="image/4_small/Auberge Le panier.jpg" alt="Auberge Le Panier">
-                            <figurcaption class="title-section1"> Auberge Le Panier</figurcaption>
+                            <img class="image-section1" src="image/4_small/Auberge-Le-panier.jpg" alt="Auberge Le Panier">
+                            <figcaption class="title-section1"> Auberge Le Panier</figcaption>
                             <div class="description-section1">
                             <P>Nuit à partir de <strong>23€</strong></P>
-                            <i class="fas fa-star star-true" aria-hidden="true"></i>
-                            <i class="fas fa-star star-true" aria-hidden="true"></i>
-                            <i class="fas fa-star star-true" aria-hidden="true"></i>
-                            <i class="fas fa-star star-true" aria-hidden="true"></i>
-                            <i class="fas fa-star star-true" aria-hidden="true"></i>
+                            <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                            <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                            <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                            <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                            <i class="fas fa-star star-true false-star" aria-hidden="true"></i>
                             </div>
                         </figure>
                         </a>
@@ -157,21 +162,21 @@
                     <article>   
                         <a href="#">
                             <figure class="card-section1">
-                                <img class="image-section1" src="image/4_small/Hôtel chez Amina.jpg" alt="Hôtel chez Amina">
-                                <figurcaption class="title-section1"> Hôtel chez Amina</figurcaption>
+                                <img class="image-section1" src="image/4_small/Hôtel-chez-Amina.jpg" alt="Hôtel chez Amina">
+                                <figcaption class="title-section1"> Hôtel chez Amina</figcaption>
                                 <div class="description-section1">
                                     <P>Nuit à partir de 96 <strong>€</strong></P>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
                                 </div>
                             </figure>
                         </a>
                     </article>
                      <!-- more-picture -->
-                    </a><ahref="#" class="more-picture">Afficher plus</a>
+                    </a href="#" class="more-picture">Afficher plus</a>
                 </section>
                 <!-- section1 -->
 
@@ -183,15 +188,15 @@
                         <article>
                             <a href="#">
                                 <figure class="card-section2">
-                                    <img src="image/4_small/Hôtel Le soleil du matin.jpg" alt="Hôtel Le soleil du matin" class="image-section2">
+                                    <img src="image/4_small/Hôte-Le-soleil-du-matin.jpg" alt="Hôtel Le soleil du matin" class="image-section2">
                                     <div class="description-section2">
-                                    <figurcaption class="title-section2">Hôtel Le soleil du matin</figurcaption>
+                                    <figcaption class="title-section2">Hôtel Le soleil du matin</figcaption>
                                     <p> Nuit à partir de 128 <strong>€</strong></p>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
                                 </div>
                             </figure>
                         </a>
@@ -200,15 +205,15 @@
                         <article>
                         <a href="#">
                             <figure class="card-section2">
-                                <img src="image/4_small/Au coeur de l'eau Chambres d'hôtes.jpg" alt="Au coeur de l'eau Chambres d'hôtes" class="image-section2">
+                                <img src="image/4_small/Au-coeur-de-leau-Chambres-dhôtes.jpg" alt="Au coeur de l'eau Chambres d'hôtes" class="image-section2">
                                 <div class="description-section2">
-                                    <figurcaption class="title-section2">Au coeur de l'eau Chambres d'hôtes</figurcaption>
+                                    <figcaption class="title-section2">Au coeur de l'eau Chambres d'hôtes</figcaption>
                                     <p> Nuit à partir de 71 <strong>€</strong></p>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true false-star" aria-hidden="true"></i>
                                 </div>
                             </figure>
                         </a>
@@ -217,15 +222,15 @@
                         <article>
                         <a href="#">
                             <figure class="card-section2">
-                                <img src="image/4_small/Hôtel Tout bleu et Blanc.jpg" alt="Hôtel Hôtel Tout bleu et Blanc" class="image-section2">
+                                <img src="image/4_small/Hôtel-Tout-bleu-et-Blanc.jpg" alt="Hôtel Hôtel Tout bleu et Blanc" class="image-section2">
                                 <div class="description-section2">
-                                    <figurcaption class="title-section2">Hôtel Hôtel Tout bleu et Blanc</figurcaption>
+                                    <figcaption class="title-section2">Hôtel Hôtel Tout bleu et Blanc</figcaption>
                                     <p> Nuit à partir de 68 <strong>€</strong></p>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
-                                    <i class="fas fa-star star-true" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true true-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star star-true false-star" aria-hidden="true"></i>
                                 </div>
                             </figure>
                         </a>
@@ -242,7 +247,7 @@
                         <article class="article1-section3">
                             <a href="#">
                                 <figure class="card1-section3">
-                                    <img src="image/4_small/Vieux Port.jpg" alt="Vieux Port">
+                                    <img src="image/4_small/Vieux-Port.jpg" alt="Vieux Port">
                                     <p class="title-section3">Vieux Port</p>
                                 </figure>
                             </a>
@@ -252,7 +257,7 @@
                         <article class="article2-section3">
                             <a href="#">
                                 <figure class="card2-section3">
-                                    <img src="image/4_small/Fort de Pomègues.jpg" alt="Fort de Pomègues">
+                                    <img src="image/4_small/Fort-de-Pomègues.jpg" alt="Fort de Pomègues">
                                     <p class="title-section3">Fort de Pomègues</p>
                                 </figure>
                             </a>
@@ -261,7 +266,7 @@
                         <article class="article3-section3">
                             <a href="#">
                                 <figure class="card3-section3">
-                                    <img src="image/4_small/Îles du Frioul.jpg" alt="Îles du Frioul">
+                                    <img src="image/4_small/Îles-du-Frioul.jpg" alt="Îles du Frioul">
                                     <p class="title-section3">Îles du Frioul</p>
                                 </figure>
                             </a>
@@ -271,7 +276,7 @@
                         <article class="article4-section3">
                             <a href="#">
                                 <figure class="card4-section3">
-                                    <img src="image/4_small/Parc National des Calanques.jpg" alt="Parc National des Calanques">
+                                    <img src="image/4_small/Parc-National-des-Calanques.jpg" alt="Parc National des Calanques">
                                     <p class="title-section3">Parc National des Calanques</p>
                                 </figure>
                             </a>
@@ -290,7 +295,7 @@
                         <article class="article3-section3">
                             <a href="#">
                                 <figure class="card3-section3">
-                                    <img src="image/4_small/Parc Longchamp.jpg" alt="Parc Longchamp">
+                                    <img src="image/4_small/Parc-Longchamp.jpg" alt="Parc Longchamp">
                                     <p class="title-section3">Parc Longchamp</p>
                                 </figure>
                             </a>

@@ -122,6 +122,8 @@ padding-left: 60px;
 max-width: 1440px;
 margin: 0px auto;
 padding-left: 60px;
+display: flex;
+flex-wrap:nowrap;
 }
 
 form div{
@@ -130,34 +132,74 @@ margin: 20px auto;
 padding-left: 60px;
 }
 
-form div i{
-background-color: #F2F2F2;
-border-radius: 1rem 0 0 1rem;
-border: 1px solid #F2F2F2;
-padding: 1rem 1.5rem;
-
-}
-
 form div input{
-    
 border-top: 1px solid #F2F2F2;
 border-bottom: 1px solid #F2F2F2;
 border-left: none;
 border-right: none;
 font-size: 1rem;
-height: 3.15rem;
+height: 3.16rem;
 }
 
-.textsearch{
-height: 3.15rem;
+
+.iconsearch{
+background-color: #F2F2F2;
+border-radius: 1rem 0 0 1rem;
+border: 1px solid #F2F2F2;
+padding: 1rem 1.5rem;
+}
+    
+    
+.searchinput{
+font-family: 'Raleway','sans-serif'; 
+padding: 0 1rem;
+font-weight: bold;
+}
+    
+.button-search1{
+height: 3.14rem;
 background-color: #0065FC;
 color: white;
-text-decoration: none;
 border:none;
 padding: 0 1rem;
-border-radius: 0 1rem 1rem 0
-
+border-radius: 0 1rem 1rem 0;
+font-family: 'Raleway','sans-serif';  
+font-weight: bold;  
+    }
+    
+.button-search2{
+height: 3.14rem;
+background-color: #0065FC;
+color: white;
+border:none;
+padding: 0 1rem;
+border-radius: 1rem;
+font-family: 'Raleway','sans-serif';  
+font-weight: bold;  
 }
+    
+.form{
+display: flex;
+flex-wrap:nowrap;
+}
+
+
+
+@media screen and (max-width:980px){
+.button-search1{
+    display: none;
+}
+}
+
+@media screen and (min-width:980px)
+{
+    .button-search2{
+        display: none;
+
+    }
+}
+
+/* filter */
 
 .filter{
 max-width: 1440px;
@@ -219,6 +261,7 @@ align-items: center;
     margin: 0 1rem 0 0;
 }
 
+
 /* main */
 
 /* middle */
@@ -227,6 +270,17 @@ align-items: center;
     display: flex;
     justify-content: space-between;
 }
+
+.true-star{
+    color: #0065FC;
+    font-size: 0.70em;
+}
+
+.false-star{
+    color:#F2F2F2;
+    font-size: 0.70em;
+}
+
 /* middle */
 
 /* section1 */
@@ -273,7 +327,7 @@ padding-left: 60px;
     
   .title-section1{
       font-weight: bold;
-      margin: 1rem;
+      margin: 0 1rem;
   } 
   
   .description-section1{
@@ -288,9 +342,9 @@ padding-left: 60px;
   .more-picture{
     color:black;
     font-weight: bold;
-    
-    
   }
+
+
 
   @media screen and (max-width:1395px){
       .cards-section1{
@@ -650,6 +704,8 @@ border-radius: 1rem 1rem 0 0;
 
 }
 
+/* footer */
+
 footer{
     background-color: #F2F2F2;
     max-width: 1550px;
@@ -679,10 +735,16 @@ footer{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         width: 100%;
+
     }
 
     footer{
-        width: 100%;
+        max-width: 1440px;
+        margin: 0;
+        padding:30px;
+
+
     }
 }
 
+/* footer */
