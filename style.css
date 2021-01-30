@@ -5,6 +5,7 @@ body
     box-sizing: border-box;
 }
 
+
 /* mon header */
 header{
     display: flex;
@@ -267,11 +268,14 @@ align-items: center;
 
 /* main */
 
+article h3{
+    display: none;
+}
+
 /* middle */
 
 .middle{
     display: flex;
-    justify-content: space-between;
 }
 
 .true-star{
@@ -359,12 +363,6 @@ padding-left: 60px;
     margin: 3.5rem 0 0 1.5rem;
   }
 
-  .card-section1 header{
-      display: none;
-  }
-
-
-
   @media screen and (max-width:1395px){
       .cards-section1{
           display: grid;
@@ -373,21 +371,28 @@ padding-left: 60px;
       }
 
     .section1{
-        width: 57%;
+        width: auto
+    }
+
+    .middle{
+    
+        width: auto;
     }
   }
   
 
-  @media screen and (max-width:1175px){
+  @media screen and (max-width:1400px){
         .middle{
             display: grid;
+            width: auto;
+            
         }
     
         .section1{
             background-color: white;
             padding: 30px;
             order: 2;
-            width: 100%;
+            width: auto;
         }
 
         .cards-section1{
@@ -446,7 +451,6 @@ border-radius: 1rem 0 0 1rem;
   
 .title-section2{
     font-weight: bold;
-
 } 
 
 .description-section2{
@@ -488,7 +492,6 @@ border-radius: 1rem 0 0 1rem;
         }
 
         
-      
       .image-section2 img{
         width: 7rem;
         height: 100%;
@@ -504,12 +507,13 @@ border-radius: 1rem 0 0 1rem;
       .description-section2{
         margin: .0.5 1rem;
     }
+
   }
 
-  @media screen and (max-width:1175px){
+  @media screen and (max-width:1400px){
    
     .section2{
-        width: 100%;
+        width: auto;
         border-radius: 0;
         margin: 0;
     }
@@ -524,9 +528,6 @@ border-radius: 1rem 0 0 1rem;
     }
   }
 
-  .cards-section2 header{
-    display: none;
-}
 /* section2 */
 
 /* section3 */
@@ -539,8 +540,6 @@ border-radius: 1rem 0 0 1rem;
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .card1-section3{
     margin: 0;
@@ -658,14 +657,14 @@ border-radius: 1rem 1rem 0 0;
         margin: 0;
         border-radius: 1rem;
         box-shadow: 1px 5px 10px rgba(0, 0, 0, .2);
-        height: 170px;
+        height: 200px;
         width: 100%;
     
     }
 
     .card1-section3 img{
         width: 100%;
-        height: 112px;
+        height: 150px;
         object-fit: cover;
         border-radius: 1rem 1rem 0 0; 
     }
@@ -674,14 +673,14 @@ border-radius: 1rem 1rem 0 0;
         margin: 0;
         border-radius: 1rem;
         box-shadow: 1px 5px 10px rgba(0, 0, 0, .2);
-        height: 170px;
-        width: 394px;
+        height: 200px;
+        width: 100%;
     
     }
 
     .card2-section3 img{
-        width: 394px;
-        height: 112px;
+        width: 100%;
+        height: 150px;
         object-fit: cover;
         border-radius: 1rem 1rem 0 0; 
     }
@@ -690,14 +689,14 @@ border-radius: 1rem 1rem 0 0;
         margin: 0;
         border-radius: 1rem;
         box-shadow: 1px 5px 10px rgba(0, 0, 0, .2);
-        height: 170px;
-        width: 394px;
+        height: 200px;
+        width: 100%;
     
     }
 
     .card3-section3 img{
-        width: 394px;
-        height: 112px;
+        width: 100%;
+        height: 150px;
         object-fit: cover;
         border-radius: 1rem 1rem 0 0; 
     }
@@ -705,14 +704,14 @@ border-radius: 1rem 1rem 0 0;
         margin: 0;
         border-radius: 1rem;
         box-shadow: 1px 5px 10px rgba(0, 0, 0, .2);
-        height: 170px;
-        width: 394px;
+        height: 200px;
+        width: 100%;
     
     }
 
     .card4-section3 img{
-        width: 394px;
-        height: 112px;
+        width: 100%;
+        height: 150px;
         object-fit: cover;
         border-radius: 1rem 1rem 0 0; 
     }
@@ -725,10 +724,6 @@ border-radius: 1rem 1rem 0 0;
         padding-top: 15px;
     }
 
-}
-
-.cards-section3 header{
-    display: none;
 }
 
 /* footer */
@@ -768,7 +763,6 @@ footer{
     }
 
     footer{
-        width: auto;
         margin: 0;
         padding:30px;
     }
@@ -777,6 +771,8 @@ footer{
 /* footer */
 
 
-.article1-section3 h3{
-display: none;
-}
+
+
+
+
+
